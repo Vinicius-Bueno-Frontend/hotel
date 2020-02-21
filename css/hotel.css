@@ -3,14 +3,14 @@ h1 {
 }
 
 header img {
-  width: 10%;
+  width: 15%;
   height: auto;
 }
 
 header {
   text-align: center;
-  background-image: url("../img/hotel1.jpg");
-  background-position: 0 - 300px;
+  background-image: url("../img/hotel5.jpg");
+  background-position: 0 -400px;
   background-size: 100%;
 }
 
@@ -25,4 +25,50 @@ footer .card-body {
   background-color: rgb(100, 100, 100);
   color: white;
   text-align: center;
+}
+
+#home1 {
+  background-color: rgb(255, 255, 255);
+  padding: 40px;
+  margin-bottom: 50px;
+  text-align: justify;
+}
+
+#home2 {
+  background-color: rgb(255, 255, 255);
+  padding: 40px;
+  margin-bottom: 50px;
+  text-align: justify;
+}
+
+#imgHome {
+  text-align: center;
+}
+
+#imgHome img {
+  width: 600px;
+  height: 350px;
+  margin: 0 10px;
+  transition: ease 1s;
+  opacity: 90%;
+}
+
+#imgHome img:hover {
+  opacity: 100%;
+  cursor: pointer;
+}
+
+#imgLazer img {
+  width: 200px;
+  height: 180px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+#imgLazer {
+  text-align: center;
+}
+
+#imgLazer img:hover {
+  opacity: 80%;
 }
